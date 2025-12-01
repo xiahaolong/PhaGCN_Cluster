@@ -7,7 +7,7 @@ import pandas as pd
 import subprocess
 import argparse
 import re
-VERSION = "PhaGCN version : 3.1\nICTV database version: VMR_MSL39_v1.xlsx 05/17/2024 "
+VERSION = "PhaGCN version : Cluster\nICTV database version: VMR_MSL39_v1.xlsx 05/17/2024 "
 parser = argparse.ArgumentParser(description='manual to this script')
 parser.add_argument('--contigs', type=str, default = 'contigs.fa')
 parser.add_argument('--len', type=int, default=1700)
