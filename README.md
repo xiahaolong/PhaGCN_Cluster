@@ -114,6 +114,16 @@ python run_Speed_up.py --contigs contigs.fa --outpath result
 - `--clustering`：Batch size for prediction (default: 100,000).
 - `--outpath`：Path to output the results.
 
+# Clustering Parameter Selection
+The following parameters are applicable to **high-quality, high-completeness long viral sequences**. The memory requirement for clustering is positively correlated with the number of sequences, and the recommended configurations are as follows:
+
+| Number of Sequences | Recommended Running Memory |
+|---------------------|----------------------------|
+| 8,000               | 64GB                       |
+| 20,000              | 100GB                      |
+| 60,000              | 256GB                      |
+| 100,000             | 500GB                      |
+
 ### Output Files
 
 The output files will be in the specified `outpath` directory, including:
